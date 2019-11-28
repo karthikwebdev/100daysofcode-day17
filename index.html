@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="items">
+                <h2>Indian (INR)</h2>
+                <input type="text" name="india" id="india" onkeyup="fun()">
+                <select id="select" onchange="fun()">
+                        <option value="select">select currency</option>
+                        <option value="usd">U.S Dollar  (USD)</option>
+                        <option value="euro">European Euro  (EUR)</option>
+                        <option value="japan">Japanese Yen  (JPY)</option>
+                        <option value="cad" >Canadian Dollar (CAD)</option>
+                </select>
+                <div  id="display"></div>
+        </div>
+       
+    </div>
+
+
+
+</body>
+</html>
